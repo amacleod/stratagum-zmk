@@ -1,0 +1,9 @@
+---
+file_format: "1"
+id: stratagum
+name: Stratagum
+type: shield
+url: https://github.com/amacleod/stratagum
+requires: [rp2040_zero]
+exposes: []
+features: [keys]

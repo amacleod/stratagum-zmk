@@ -1,0 +1,6 @@
+if SHIELD_STRATAGUM
+
+config ZMK_KEYBOARD_NAME
+    default "Stratagum"
+
+endif
