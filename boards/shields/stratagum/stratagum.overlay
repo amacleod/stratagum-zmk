@@ -17,9 +17,12 @@
     compatible = "zmk,matrix-transform";
     columns = <3>;
     rows = <2>;
+    // Physical map, in terms of "D" pin labels:
+    //      D3
+    //  D2  D1  D0
     map = <
-              RC(0,0)
-      RC(0,1) RC(0,2) RC(0,3)
+              RC(0,3)
+      RC(0,2) RC(0,1) RC(0,0)
     >;
   };
 
